@@ -1887,6 +1887,11 @@ bcrypt-pbkdf@^1.0.0:
   dependencies:
     tweetnacl "^0.14.3"
 
+bezier-easing@2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/bezier-easing/-/bezier-easing-2.1.0.tgz#c04dfe8b926d6ecaca1813d69ff179b7c2025d86"
+  integrity sha1-wE3+i5JtbsrKGBPWn/F5t8ICXYY=
+
 bfj@^6.1.1:
   version "6.1.2"
   resolved "https://registry.npm.taobao.org/bfj/download/bfj-6.1.2.tgz#325c861a822bcb358a41c78a33b8e6e2086dde7f"
@@ -8231,6 +8236,13 @@ vue-router@^3.2.0:
   version "3.4.7"
   resolved "https://registry.npm.taobao.org/vue-router/download/vue-router-3.4.7.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fvue-router%2Fdownload%2Fvue-router-3.4.7.tgz#bf189bafd16f4e4ef783c4a6250a3090f2c1fa1b"
   integrity sha1-vxibr9FvTk73g8SmJQowkPLB+hs=
+
+vue-scrollto@^2.19.1:
+  version "2.19.1"
+  resolved "https://registry.yarnpkg.com/vue-scrollto/-/vue-scrollto-2.19.1.tgz#8c6ee7e7120a38accea1a9c47f45aeeb660fd312"
+  integrity sha512-4+CCBLm6fTwDkKgqJIOnE4UB9ngYVoFAREJfPhT0YaEKMo6oAjnP5fv4//cuN/DxXCi75N/QOwmpOPn/xwPd5g==
+  dependencies:
+    bezier-easing "2.1.0"
 
 vue-style-loader@^4.1.0, vue-style-loader@^4.1.2:
   version "4.1.2"
