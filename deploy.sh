@@ -10,5 +10,5 @@ echo 'mariusweidner.de' > CNAME
 git init
 git add -A
 git commit -m 'deploy'
-git push -f git@github.com:Mari-W/webpage.git master:gh-pages
+git push -f git@github.com:Mari-W/mari-w.github.io.git master:gh-pages
 cd -
