@@ -1,6 +1,5 @@
 <template>
   <div class="pa-0 ma-0" :style="'background-color:'+ color">
-    <div style="height: 60px"></div>
     <v-container id="education" fill-height fluid class="pa-0">
       <v-spacer/>
       <span class="display-3">Education</span>
@@ -28,7 +27,9 @@
       </v-card>
       <v-spacer/>
     </v-container>
-    <div style="height: 100px"></div>
+    <div style="height: 50px"></div>
+    <v-divider/>
+    <div style="height: 50px"></div>
     <v-container id="projects" fill-height fluid class="pa-0">
       <v-spacer/>
       <v-card flat color="transparent" max-width="42%">
@@ -51,14 +52,14 @@
       </v-card>
       <v-col>
         <v-img src="@/assets/thg.png" transition max-width="250" max-height="100"
-               class="rounded-lg mb-8"></v-img>
+               class="rounded-lg mb-6"></v-img>
         <v-img  src="@/assets/schneeburgschule.png" transition max-width="250" max-height="100"
         class="rounded-lg "></v-img>
       </v-col>
 
       <v-spacer/>
     </v-container>
-    <div style="height: 60px"></div>
+    <div style="height: 100px"></div>
   </div>
 </template>
 

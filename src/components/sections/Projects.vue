@@ -1,6 +1,5 @@
 <template>
   <div class="pa-0 ma-0" :style="'background-color:'+ color">
-    <div style="height: 60px"></div>
     <v-container id="projects" fill-height fluid class="pa-0">
       <v-spacer/>
       <span class="display-3">Projects</span>
@@ -33,6 +32,8 @@
       </v-card>
       <v-spacer/>
     </v-container>
+    <div style="height: 50px"></div>
+    <v-divider/>
     <div style="height: 100px"></div>
     <v-container id="projects" fill-height fluid class="pa-0">
       <v-spacer/>
