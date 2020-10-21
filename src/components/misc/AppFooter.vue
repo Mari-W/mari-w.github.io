@@ -4,9 +4,10 @@
         flat
         tile
         width="100%"
+        color="transparent"
     >
       <v-card-text class="text-center">
-        <v-btn text disabled href="https://mariusweidner.de" target="_blank">
+        <v-btn text href="/legal">
          Marius Weidner - {{ new Date().getFullYear() }}
         </v-btn>
       </v-card-text>
