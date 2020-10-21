@@ -1,5 +1,5 @@
 <template>
-  <v-app-bar app color="transparent" flat>
+  <v-app-bar app color="transparent" flat hide-on-scroll>
     <navigate/>
     <v-spacer></v-spacer>
     <contact/>
