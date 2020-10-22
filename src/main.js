@@ -18,7 +18,7 @@ const vuetify = new Vuetify({
 });
 
 Vue.use(VueScrollTo, {
-  offset: -50
+  offset: -45
 });
 
 Vue.config.productionTip = false;
