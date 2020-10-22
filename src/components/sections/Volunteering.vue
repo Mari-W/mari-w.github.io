@@ -7,7 +7,6 @@
     </v-container>
     <div style="height: 100px"></div>
     <v-container fill-height fluid class="pa-0">
-      <v-spacer v-if="!this.$isMobile"/>
       <v-spacer/>
       <v-img
           src="@/assets/juleica.png"
@@ -43,7 +42,6 @@
     <v-divider/>
     <div style="height: 50px"></div>
     <v-container fill-height fluid class="pa-0">
-      <v-spacer v-if="!this.$isMobile" />
       <v-spacer/>
       <v-img
           v-if="this.$isMobile"
@@ -52,21 +50,21 @@
           max-height="400"
           class="rounded-lg "
       ></v-img>
-      <v-spacer v-if="this.$isMobile"/>
+      <v-spacer/>
       <v-card flat color="transparent" :max-width="this.$isMobile ? '90%' : '36%'">
         <v-card-title v-if="!this.$isMobile" class="display-2">
           KjG St. Peter und Paul
         </v-card-title>
         <v-card-text :class="this.$isMobile ?'title text-center mt-4 ml-4' : 'title'">
-          Since 2016 I've been part of the local youth organization. We plan many activities for children from 8-15
+          Since 2016 I've been part of the local youth organization. We plan weekly activities for children from 8-15
           years over the year
-          and go on an summer camp every year with about 50 children. The<a
+          and go on an summer camp every year with about 50 children. The <a
             href="https://www.kath-geht.de/html/content/kjg_st_peter_und_paul9344.html"
             target="_blank"
             style="color:white; text-decoration: none;"
         >KjG St. Peter und Paul</a
         >
-          is run by our catholic church parish.
+          is has about 35 leaders and over 200 registered children.
         </v-card-text>
       </v-card>
       <v-spacer/>

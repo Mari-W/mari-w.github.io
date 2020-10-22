@@ -8,7 +8,6 @@
     </v-container>
     <div style="height: 100px"></div>
     <v-container fill-height fluid class="pa-0">
-      <v-spacer v-if="!this.$isMobile" />
       <v-spacer />
       <v-img
         src="@/assets/kds.png"
@@ -65,7 +64,6 @@
     <div style="height: 50px"></div>
     <v-container fill-height fluid class="pa-0">
       <v-spacer />
-      <v-spacer v-if="!this.$isMobile"/>
       <v-img
           v-if="this.$isMobile"
           src="@/assets/github.png"
@@ -73,6 +71,7 @@
           max-height="365"
           class="rounded-lg "
       ></v-img>
+      <v-spacer/>
       <v-card flat color="transparent" :max-width="this.$isMobile ? '90%' : '35%'">
         <v-card-title class="display-2" v-if="!this.$isMobile">
           Small but Cool

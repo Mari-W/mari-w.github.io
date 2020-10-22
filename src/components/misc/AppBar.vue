@@ -2,7 +2,7 @@
   <v-app-bar app color="transparent" flat hide-on-scroll>
     <navigate v-if="!this.$isMobile"/>
     <v-spacer v-if="!this.$isMobile"></v-spacer>
-    <contact />
+    <contact/>
     <v-spacer v-if="this.$isMobile"></v-spacer>
     <v-avatar v-if="this.$isMobile" class="mt-2">
       <v-img
@@ -16,6 +16,6 @@ import Contact from "@/components/misc/Contact";
 import Navigate from "@/components/misc/Navigate";
 
 export default {
-  components: { Navigate, Contact }
+  components: {Navigate, Contact}
 };
 </script>

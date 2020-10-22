@@ -7,15 +7,13 @@
     </v-container>
     <div style="height: 100px"></div>
     <v-container fill-height fluid class="pa-0">
-      <v-spacer v-if="!this.$isMobile"/>
       <v-spacer/>
       <v-img
           src="@/assets/ptw.png"
           max-width="280"
           max-height="300"
-          class="rounded-xl"
       ></v-img>
-      <v-spacer/>
+      <v-spacer />
       <v-card flat color="transparent" :max-width="this.$isMobile ? '90%' : '35%'">
         <v-card-title v-if="!this.$isMobile" class="display-2">
           PTW Dosimetry
@@ -41,15 +39,13 @@
     <div style="height: 50px"></div>
     <v-container id="projects" fill-height fluid class="pa-0">
       <v-spacer/>
-      <v-spacer/>
       <v-img
           v-if="this.$isMobile"
           src="@/assets/laby.png"
           max-width="280"
-          max-height="320"
-          class="rounded-lg "
+          max-height="300"
       ></v-img>
-      <v-spacer v-if="this.$isMobile"/>
+      <v-spacer />
       <v-card flat color="transparent" :max-width="this.$isMobile ? '90%' : '35%'">
         <v-card-title class="display-2" v-if="!this.$isMobile">
           LabyMedia

@@ -7,7 +7,6 @@
     </v-container>
     <div style="height: 100px"></div>
     <v-container fill-height fluid class="pa-0">
-      <v-spacer v-if="!this.$isMobile"/>
       <v-spacer/>
       <v-img
           src="@/assets/uni.png"
@@ -44,7 +43,6 @@
     <v-divider />
     <div style="height: 50px"></div>
     <v-container id="projects" fill-height fluid class="pa-0">
-      <v-spacer v-if="!this.$isMobile"/>
       <v-spacer/>
       <v-col v-if="this.$isMobile">
         <v-img
@@ -66,7 +64,7 @@
             class="rounded-lg "
         ></v-img>
       </v-col>
-      <v-spacer v-if="this.$isMobile"/>
+      <v-spacer/>
       <v-card flat color="transparent" :max-width="this.$isMobile ? '90%' : '37%'">
         <v-card-title v-if="!this.$isMobile" class="display-2">
           Primary and High School
