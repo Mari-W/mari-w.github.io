@@ -56,15 +56,15 @@
           KjG St. Peter und Paul
         </v-card-title>
         <v-card-text :class="this.$isMobile ?'title text-center mt-4 ml-4' : 'title'">
-          Since 2016 I've been part of the local youth organization. We plan weekly activities for children from 8-15
-          years over the year
-          and go on an summer camp every year with about 50 children. The <a
+          Since 2016 I've been part of a local youth organization called Katholische-junge-Gemeinde. We plan weekly activities for children from 8-15
+          years
+          and go on an 10 days summer camp every year with about 50 children. The <a
             href="https://www.kath-geht.de/html/content/kjg_st_peter_und_paul9344.html"
             target="_blank"
             style="color:white; text-decoration: none;"
         >KjG St. Peter und Paul</a
         >
-          is has about 35 leaders and over 200 registered children.
+          has about 35 leaders and over 200 registered children.
         </v-card-text>
       </v-card>
       <v-spacer/>

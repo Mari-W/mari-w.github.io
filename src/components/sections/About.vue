@@ -1,6 +1,6 @@
 <template>
   <div class="pa-0 ma-0" style="min-height: 780px">
-    <div style="height: 100px" v-if="!this.$isMobile"></div>
+    <div :style="this.$isMobile ? 'height: 50px' : 'height: 100px'"></div>
     <v-container id="about" fill-height fluid class="pa-0">
       <v-spacer/>
       <v-img
@@ -13,7 +13,7 @@
       <v-card flat color="transparent" :max-width="this.$isMobile ? '90%' : '45%'"
               :class="this.$isMobile ? 'text-center' : ''">
         <v-card-title :class="this.$isMobile ? 'justify-center' : 'display-2'">
-          Hi, I'm Marius Weidner
+          This Is Me
         </v-card-title>
         <v-card-text class="title">
           I'm a Software Engineer studying Computer Science in Germany. My
@@ -22,11 +22,11 @@
           Besides sitting in front of my computer I do play soccer and volunteer
           as youth worker.
         </v-card-text>
-        <v-row class="mt-n2">
+        <v-row>
           <v-col :style="this.$isMobile ? 'min-width: 60%' : ''">
             <v-divider v-if="languages"/>
             <v-card-subtitle :class="this.$isMobile ? 'subtitle-1 white--text' : 'headline white--text'">
-              <v-btn icon @click="languages = !languages">
+              <v-btn icon class="ml-n1" @click="languages = !languages">
                 <v-icon>{{
                     languages ? "mdi-arrow-up" : "mdi-arrow-down"
                   }}
@@ -52,7 +52,7 @@
           <v-col :style="this.$isMobile ? 'min-width: 60%' : ''">
             <v-divider v-if="frameworks"/>
             <v-card-subtitle :class="this.$isMobile ? 'subtitle-1 white--text' : 'headline white--text'">
-              <v-btn icon class="ml-n3" @click="frameworks = !frameworks">
+              <v-btn icon class="ml-n1" @click="frameworks = !frameworks">
                 <v-icon>{{
                     frameworks ? "mdi-arrow-up" : "mdi-arrow-down"
                   }}
