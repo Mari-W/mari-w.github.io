@@ -3,6 +3,7 @@ import App from "./App.vue";
 import router from "./router";
 import Vuetify from "vuetify/lib";
 import VueScrollTo from "vue-scrollto";
+import { isMobile } from "mobile-device-detect";
 
 Vue.use(Vuetify);
 const vuetify = new Vuetify({
@@ -22,6 +23,8 @@ Vue.use(VueScrollTo, {
 });
 
 Vue.config.productionTip = false;
+
+Vue.prototype.$isMobile = isMobile;
 
 new Vue({
   router,

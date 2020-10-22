@@ -3,26 +3,25 @@
     <div style="height: 20px"></div>
     <v-container id="projects" fill-height fluid class="pa-0">
       <v-spacer />
-      <span class="display-3">Projects I Could Finish</span>
+      <span :class="this.$isMobile ? 'display-1 text-center mt-6' : 'display-3'">Projects and References</span>
       <v-spacer />
     </v-container>
     <div style="height: 100px"></div>
     <v-container fill-height fluid class="pa-0">
-      <v-spacer />
+      <v-spacer v-if="!this.$isMobile" />
       <v-spacer />
       <v-img
         src="@/assets/kds.png"
-        transition
         max-width="220"
         max-height="350"
         class="rounded-xl"
       ></v-img>
-      <v-spacer />
-      <v-card flat color="transparent" max-width="35%">
-        <v-card-title class="display-2">
+      <v-spacer/>
+      <v-card  flat color="transparent" :max-width="this.$isMobile ? '90%' : '35%'">
+        <v-card-title v-if="!this.$isMobile" class="display-2">
           Calendar of Failure 2
         </v-card-title>
-        <v-card-text class="title">
+        <v-card-text :class="this.$isMobile ?'title text-center mt-4 ml-4' : 'title'">
           Together,
           <a
             href="https://github.com/moehritz"
@@ -59,19 +58,26 @@
         </v-card-text>
       </v-card>
       <v-spacer />
-      <v-spacer />
+      <v-spacer v-if="!this.$isMobile" />
     </v-container>
-    <div style="height: 60px"></div>
-    <v-divider />
-    <div style="height: 60px"></div>
-    <v-container id="projects" fill-height fluid class="pa-0">
+    <div style="height: 50px"></div>
+    <v-divider/>
+    <div style="height: 50px"></div>
+    <v-container fill-height fluid class="pa-0">
       <v-spacer />
-      <v-spacer />
-      <v-card flat color="transparent" max-width="35%">
-        <v-card-title class="display-2">
+      <v-spacer v-if="!this.$isMobile"/>
+      <v-img
+          v-if="this.$isMobile"
+          src="@/assets/github.png"
+          max-width="365"
+          max-height="365"
+          class="rounded-lg "
+      ></v-img>
+      <v-card flat color="transparent" :max-width="this.$isMobile ? '90%' : '35%'">
+        <v-card-title class="display-2" v-if="!this.$isMobile">
           Small but Cool
         </v-card-title>
-        <v-card-text class="title">
+        <v-card-text :class="this.$isMobile ?'title text-center mt-4 ml-4' : 'title'">
           Because I cannot decide what to put here, have a look at other
           projects; For example my app to instantly see
           <a
@@ -99,14 +105,14 @@
       </v-card>
       <v-spacer />
       <v-img
+          v-if="!this.$isMobile"
         src="@/assets/github.png"
-        transition
         max-width="365"
         max-height="365"
         class="rounded-lg "
       ></v-img>
       <v-spacer />
-      <v-spacer />
+      <v-spacer v-if="!this.$isMobile" />
     </v-container>
     <div style="height: 60px"></div>
   </div>
