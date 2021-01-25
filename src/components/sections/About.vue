@@ -39,11 +39,11 @@
               <strong
               >- Kotlin <br/>
                 - Python <br/>
-                - Java/Type -Script</strong
+                - Java/Type-Script</strong
               >
               <br/>
               - Dart <br/>
-              - C#
+              - C# <br/>
               - Java <br/>
             </v-card-text>
           </v-col>
