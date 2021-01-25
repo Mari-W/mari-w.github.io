@@ -65,12 +65,10 @@
               >- Ktor <br/>
                 - VueJS <br/>
                 - Flutter <br/>
-                - MongoDB <br/>
-                - MySQL
               </strong>
               <br/>
-              - Tensorflow <br/>
-              - Selenium <br/>
+              - SQL <br/>
+              - NO-OSQL
             </v-card-text>
           </v-col>
         </v-row>
