@@ -66,9 +66,8 @@
                 - VueJS <br/>
                 - Flutter <br/>
               </strong>
-              <br/>
               - SQL <br/>
-              - NO-OSQL
+              - NOSQL
             </v-card-text>
           </v-col>
         </v-row>
