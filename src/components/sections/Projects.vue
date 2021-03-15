@@ -1,117 +1,56 @@
 <template>
   <div class="pa-0 ma-0" :style="'background-color:' + color">
     <div style="height: 20px"></div>
-    <v-container id="projects" fill-height fluid class="pa-0">
+    <v-container id="coding" fill-height fluid class="pa-0">
+      <!--      <v-spacer/>-->
+      <!--      <span :class="this.$isMobile ? 'display-1 text-center mt-6' : 'display-3'">coding</span>-->
       <v-spacer />
-      <span :class="this.$isMobile ? 'display-1 text-center mt-6' : 'display-3'">Projects and References</span>
-      <v-spacer />
-    </v-container>
-    <div style="height: 100px"></div>
-    <v-container fill-height fluid class="pa-0">
-      <v-spacer />
-      <v-img
-        src="@/assets/kds.png"
-        max-width="220"
-        max-height="350"
-        class="rounded-xl"
-      ></v-img>
-      <v-spacer/>
-      <v-card  flat color="transparent" :max-width="this.$isMobile ? '90%' : '35%'">
-        <v-card-title v-if="!this.$isMobile" class="display-2">
-          Calendar of Failure 2
-        </v-card-title>
-        <v-card-text :class="this.$isMobile ?'title text-center mt-4 ml-4' : 'title'">
-          Together,
-          <a
-            href="https://github.com/moehritz"
-            target="_blank"
-            style="color:white; text-decoration: none;"
-            >a good friend</a
-          >
-          and I, created the website
-          <a
-            href="https://kalenderdesscheiterns.de"
-            target="_blank"
-            style="color:white; text-decoration: none;"
-            >kalenderdesscheiterns.de</a
-          >
-          for comedian and member of the European Parlament
-          <a
-            href="https://nicosemsrott.eu/"
-            target="_blank"
-            style="color:white; text-decoration: none;"
-            >Nico Semsrott</a
-          >. The calender is now finished and can be found
-          <a
-            target="_blank"
-            href="https://shop.sea-watch.org/Kalender-des-Scheiterns-2-von-Nico-Semsrott"
-            style="color:white; text-decoration: none;"
-            >here</a
-          >. Besides that the source can be found
-          <a
-            href="https://github.com/Mari-W/kds"
-            target="_blank"
-            style="color:white; text-decoration: none;"
-            >on GitHub</a
-          >.
-        </v-card-text>
-      </v-card>
-      <v-spacer />
-      <v-spacer v-if="!this.$isMobile" />
-    </v-container>
-    <div style="height: 50px"></div>
-    <v-divider/>
-    <div style="height: 50px"></div>
-    <v-container fill-height fluid class="pa-0">
-      <v-spacer />
-      <v-img
+      <div style="height: 400px"></div>
+      <div style="height: 50px"></div>
+      <v-container fill-height fluid class="pa-0">
+        <v-spacer />
+        <v-img
           v-if="this.$isMobile"
           src="@/assets/github.png"
           max-width="365"
           max-height="365"
           class="rounded-lg "
-      ></v-img>
-      <v-spacer/>
-      <v-card flat color="transparent" :max-width="this.$isMobile ? '90%' : '35%'">
-        <v-card-title class="display-2" v-if="!this.$isMobile">
-          Small but Cool
-        </v-card-title>
-        <v-card-text :class="this.$isMobile ?'title text-center mt-4 ml-4' : 'title'">
-          Because I cannot decide what to put here, have a look at other
-          projects; For example my app to instantly see
-          <a
-            href="https://github.com/Mari-W/whos_home"
-            target="_blank"
-            style="color:white; text-decoration: none;"
-            >who's currently home</a
+        ></v-img>
+        <v-spacer />
+        <v-card
+          flat
+          color="transparent"
+          :max-width="this.$isMobile ? '90%' : '35%'"
+        >
+          <v-card-title class="display-2" v-if="!this.$isMobile">
+            stuff I code
+          </v-card-title>
+          <v-card-text
+            :class="this.$isMobile ? 'title text-center mt-4 ml-4' : 'title'"
           >
-          or how i build the
-          <a
-            href="https://github.com/Mari-W/mnist_network"
-            target="_blank"
-            style="color:white; text-decoration: none;"
-            >hello world of neural networks</a
-          >
-          only using numpy. You might want to have a look at the
-          <a
-            href="https://github.com/Mari-W/unif-util"
-            target="_blank"
-            style="color:white; text-decoration: none;"
-            >multiplatform utility for my university</a
-          >
-          accessible through browser and as native Linux, Mac and Windows Apps.
-        </v-card-text>
-      </v-card>
-      <v-spacer />
-      <v-img
+            I like coding in Kotlin, Python, TypeScript and other languages but
+            I also try learning functional approaches like Haskell or Agda. For
+            a more detailed overview of what i've done checkout my totally
+            outdated
+            <a
+              href="https://github.com/mari-w"
+              target="_blank"
+              style="color:white; text-decoration: none;"
+              >GitHub</a
+            >.
+          </v-card-text>
+        </v-card>
+        <v-spacer />
+        <v-img
           v-if="!this.$isMobile"
-        src="@/assets/github.png"
-        max-width="365"
-        max-height="365"
-        class="rounded-lg "
-      ></v-img>
-      <v-spacer />
-      <v-spacer v-if="!this.$isMobile" />
+          src="@/assets/github.png"
+          max-width="365"
+          max-height="365"
+          class="rounded-lg "
+        ></v-img>
+        <v-spacer />
+        <v-spacer v-if="!this.$isMobile" />
+      </v-container>
     </v-container>
     <div style="height: 60px"></div>
   </div>

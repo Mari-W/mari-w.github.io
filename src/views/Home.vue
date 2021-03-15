@@ -13,14 +13,14 @@
         <wave :color="colors.education" class="mb-n2" />
         <education :color="colors.education" />
       </div>
-      <div :style="'background-color: ' + colors.education">
+      <!--      <div :style="'background-color: ' + colors.education">
         <wave :color="colors.work" class="mb-n2" />
         <work :color="colors.work" />
       </div>
       <div :style="'background-color: ' + colors.work">
         <wave :color="colors.volunteering" class="mb-n2" />
         <volunteering :color="colors.volunteering" />
-      </div>
+      </div>-->
     </div>
     <app-footer />
   </div>
@@ -30,8 +30,8 @@
 import About from "@/components/sections/About";
 import Projects from "@/components/sections/Projects";
 import Education from "@/components/sections/Education";
-import Work from "@/components/sections/Work";
-import Volunteering from "@/components/sections/Volunteering";
+/*import Work from "@/components/sections/Work";
+import Volunteering from "@/components/sections/Volunteering";*/
 import Wave from "@/components/misc/Wave";
 import AppBar from "@/components/misc/AppBar";
 import AppFooter from "@/components/misc/AppFooter";
@@ -42,8 +42,8 @@ export default {
     AppFooter,
     AppBar,
     Wave,
-    Volunteering,
-    Work,
+    /* Volunteering,
+    Work,*/
     Education,
     Projects,
     About
