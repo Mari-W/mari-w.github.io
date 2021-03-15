@@ -26,7 +26,7 @@
             stuff I code
           </v-card-title>
           <v-card-text
-            :class="this.$isMobile ? 'title text-center mt-4 ml-4' : 'title'"
+            :class="this.$isMobile ? 'title text-center mt-4' : 'title'"
           >
             I like coding in Kotlin, Python, TypeScript and other languages but
             I also try learning functional approaches like Haskell or Agda. For

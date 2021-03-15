@@ -23,7 +23,7 @@
             stuff I learn
           </v-card-title>
           <v-card-text
-            :class="this.$isMobile ? 'title text-center mt-4 ml-4' : 'title'"
+            :class="this.$isMobile ? 'title text-center mt-4' : 'title'"
           >
             Currently I am doing my B.Sc in Computer Science at
             <a
