@@ -7,7 +7,7 @@
       <v-spacer />
       <div style="height: 400px"></div>
       <div style="height: 50px"></div>
-      <v-container fill-height fluid class="pa-0">
+      <v-container fill-height fluid class="pa-0 mt-8">
         <v-spacer />
         <v-img
           v-if="this.$isMobile"
@@ -20,7 +20,7 @@
         <v-card
           flat
           color="transparent"
-          :max-width="this.$isMobile ? '90%' : '35%'"
+          :max-width="this.$isMobile ? '95%' : '35%'"
         >
           <v-card-title class="display-2" v-if="!this.$isMobile">
             stuff I code

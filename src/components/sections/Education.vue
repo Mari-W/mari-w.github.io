@@ -5,7 +5,7 @@
             <span :class="this.$isMobile ? 'display-1 text-center mt-6' : 'display-3'">Studies and School Life</span>
             <v-spacer/>-->
       <div style="height: 100px"></div>
-      <v-container fill-height fluid class="pa-0">
+      <v-container fill-height fluid class="pa-0 mt-10">
         <v-spacer />
         <v-img
           src="@/assets/uni.png"
@@ -25,7 +25,7 @@
           <v-card-text
             :class="this.$isMobile ? 'title text-center mt-4 ml-4' : 'title'"
           >
-            Currently I am doing my Bachelor of Science in Computer Science at
+            Currently I am doing my B.Sc in Computer Science at
             <a
               href="https://www.tf.uni-freiburg.de/en/study-programs/computer-science/b-sc-computer-science"
               target="_blank"
@@ -127,7 +127,8 @@
             <v-spacer v-if="!this.$isMobile"/>
           </v-container>-->
     </v-container>
-    <div style="height: 100px"></div>
+    <div style="height: 75px"></div>
+    <v-divider />
   </div>
 </template>
 

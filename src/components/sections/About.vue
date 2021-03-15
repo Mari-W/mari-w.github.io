@@ -1,7 +1,11 @@
 <template>
-  <div class="pa-0 ma-0" style="min-height: 590px">
-    <div :style="this.$isMobile ? 'height: 50px' : 'height: 100px'"></div>
-    <v-container id="about" fill-height fluid class="pa-0">
+  <div class="pa-0 ma-0" style="min-height: 640px">
+    <v-container
+      id="about"
+      fill-height
+      fluid
+      :class="'pa-0 ' + !this.$isMobile ? 'pt-xl-16' : ''"
+    >
       <v-spacer />
       <v-img
         src="@/assets/picture.png"
@@ -10,7 +14,7 @@
         v-if="!this.$isMobile"
       ></v-img>
       <!--      <v-spacer v-if="!this.$isMobile"/>-->
-      <div style="width: 50px" />
+      <div style="width: 100px" v-if="!this.$isMobile" />
       <v-card
         flat
         color="transparent"
