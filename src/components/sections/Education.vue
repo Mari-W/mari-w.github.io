@@ -5,7 +5,7 @@
             <span :class="this.$isMobile ? 'display-1 text-center mt-6' : 'display-3'">Studies and School Life</span>
             <v-spacer/>-->
       <div style="height: 100px"></div>
-      <v-container fill-height fluid class="pa-0 mt-10">
+      <v-container fill-height fluid class="pa-0 mt-8">
         <v-spacer />
         <v-img
           src="@/assets/uni.png"

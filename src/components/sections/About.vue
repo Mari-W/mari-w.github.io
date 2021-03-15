@@ -29,7 +29,7 @@
           passion is networking and writing microservices, but I also sometimes
           like doing design and frontend. I'm also interested in functional
           programming and programming language design. Besides sitting in front
-          of my of my computer I do play soccer and volunteer as youth worker.
+          of my computer I do play soccer and volunteer as youth worker.
         </v-card-text>
         <!--        <v-row>
           <v-col :style="this.$isMobile ? 'min-width: 60%' : ''">

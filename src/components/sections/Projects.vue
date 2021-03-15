@@ -7,7 +7,7 @@
       <v-spacer />
       <div style="height: 400px"></div>
       <div style="height: 50px"></div>
-      <v-container fill-height fluid class="pa-0 mt-8">
+      <v-container fill-height fluid class="pa-0 mt-6">
         <v-spacer />
         <v-img
           v-if="this.$isMobile"
