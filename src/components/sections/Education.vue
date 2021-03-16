@@ -36,11 +36,10 @@
               href="https://www.tf.uni-freiburg.de/en/study-programs/computer-science"
               target="_blank"
               style="color:white; text-decoration: none;"
-              >studies related to robotics, machine learning, algorithms and
-              security</a
-            >
+              >studies related to robotics, machine learning
+            </a>
             but I am more interested in programming language theory and design.
-            I expect to finish my bachelors in 2023.
+            I expect to finish my bachelors in 2023 (started end of 2019).
           </v-card-text>
         </v-card>
         <v-spacer />

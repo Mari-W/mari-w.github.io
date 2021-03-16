@@ -23,14 +23,15 @@
           :max-width="this.$isMobile ? '95%' : '35%'"
         >
           <v-card-title class="display-2" v-if="!this.$isMobile">
-            stuff I code
+            programming
           </v-card-title>
           <v-card-text
             :class="this.$isMobile ? 'title text-center mt-4' : 'title'"
           >
             I like coding in Kotlin, Python, TypeScript and other languages but
-            I also try learning functional approaches like Haskell or Agda. For
-            a more detailed overview of what i've done checkout my totally
+            I try learning functional approaches like Haskell or Agda. In
+            general I like programming in strongly typed languages. For a more
+            detailed overview of what i've done so far checkout my totally
             outdated
             <a
               href="https://github.com/mari-w"
