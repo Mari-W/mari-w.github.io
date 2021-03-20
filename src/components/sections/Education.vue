@@ -20,7 +20,7 @@
           :max-width="this.$isMobile ? '95%' : '36%'"
         >
           <v-card-title v-if="!this.$isMobile" class="display-2">
-            stuff I learn
+            studies
           </v-card-title>
           <v-card-text
             :class="this.$isMobile ? 'title text-center mt-4' : 'title'"
