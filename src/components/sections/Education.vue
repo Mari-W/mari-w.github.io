@@ -31,7 +31,7 @@
               target="_blank"
               style="color:white; text-decoration: none;"
               >Albert-Ludwigs-University of Freiburg</a
-            >. The University of Freiburg mainly focus on
+            >. The University of Freiburg mainly focuses on
             <a
               href="https://www.tf.uni-freiburg.de/en/study-programs/computer-science"
               target="_blank"
