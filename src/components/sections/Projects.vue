@@ -28,9 +28,8 @@
           <v-card-text
             :class="this.$isMobile ? 'title text-center mt-4' : 'title'"
           >
-            I like coding in Kotlin, Python, TypeScript and other languages but
-            I try learning functional approaches like Haskell or Agda. In
-            general I like programming in strongly typed languages. For a more
+            I like programming in Kotlin, Python, TypeScript and other languages but in
+            general I prefer coding in strongly typed languages. For a more
             detailed overview of what i've done so far checkout my totally
             outdated
             <a
