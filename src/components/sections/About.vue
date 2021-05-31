@@ -26,9 +26,7 @@
         </v-card-title>
         <v-card-text class="title">
           I'm a 19 years old software engineer studying computer science in
-          germany. My passion is networking and writing microservices, but I
-          also sometimes like doing design and frontend. I'm currently most
-          interested in functional programming and programming language design.
+          germany. Im currently exploring the world of computer sience in different languages and frameworks with all it's problems.
           Besides sitting in front of my computer I do play soccer and volunteer
           as youth worker.
         </v-card-text>
